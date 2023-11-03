@@ -270,7 +270,7 @@ WelcomeState.prototype.draw = function(game, dt, ctx) {
     ctx.fillText("Restart Game?", game.width / 2, game.height/2 - 40); 
     ctx.font="16px Arial";
 
-    ctx.fillText("Press 'Space' or tap", game.width / 2, game.height/2); 
+    ctx.fillText("Press 'Space' or tap to play", game.width / 2, game.height/2); 
 };
 
 WelcomeState.prototype.keyDown = function(game, keyCode) {
