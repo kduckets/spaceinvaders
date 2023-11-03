@@ -41,7 +41,7 @@
         </style>
     </head>
     <body>
-        <!-- <div id="starfield"></div> -->
+        <div id="starfield"></div>
         <div id="gamecontainer">
         <canvas id="gameCanvas"></canvas>
         </div>
@@ -52,15 +52,15 @@
 
         </div>
 
-        <!-- <script src="js/starfield.js"></script> -->
+        <script src="js/starfield.js"></script>
         <script src="js/spaceinvaders.js"></script>
         <script>
 
-            // //  Create the starfield.
-            // var container = document.getElementById('starfield');
-            // var starfield = new Starfield();
-            // starfield.initialise(container);
-            // starfield.start();
+            //  Create the starfield.
+            var container = document.getElementById('starfield');
+            var starfield = new Starfield();
+            starfield.initialise(container);
+            starfield.start();
 
             //  Setup the canvas.
             var canvas = document.getElementById("gameCanvas");
