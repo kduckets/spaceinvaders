@@ -302,7 +302,7 @@ GameOverState.prototype.draw = function(game, dt, ctx) {
     ctx.textAlign="center"; 
     ctx.fillText("Game Over!", game.width / 2, game.height/2 - 40); 
     ctx.font="16px Arial";
-    ctx.fillText("You scored " + game.score + " and got to level " + game.level + ". You were unable to save the earth.", game.width / 2, game.height/2);
+    ctx.fillText("You scored " + game.score + " and got to level " + game.level + ". You were unable to save earth.", game.width / 2, game.height/2);
     ctx.font="16px Arial";
     ctx.fillText("Press 'Space' to Restart Game.", game.width / 2, game.height/2 + 40);   
 };
